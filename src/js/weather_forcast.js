@@ -25,8 +25,9 @@ function search() {
   var selected_city = $('select.weather option:selected').attr('value');
   
   // APIKey
-  var owmApiKey = "111643793037a778a62d66e2a7d7d372";
-  var owmURL = "http://api.openweathermap.org/data/2.5/weather?lat="+ cities[selected_city]["lat"] + "&lon=" + cities[selected_city]["lon"] + "&appid="+ owmApiKey + "&lang=ja" + "";
+  // var owmApiKey = "111643793037a778a62d66e2a7d7d372";
+  var secretKey = "https://qiita.com/YoshiakiOi/items/857d1fc4e7a557bad2ef";
+  var owmURL = "http://api.openweathermap.org/data/2.5/weather?lat="+ cities[selected_city]["lat"] + "&lon=" + cities[selected_city]["lon"] + "&appid="+ secretKey + "&lang=ja" + "";
   console.log(owmURL);
   
   // request送信の準備
