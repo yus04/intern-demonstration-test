@@ -20,6 +20,13 @@ function search() {
       "lon": -0.1277,
     }
   }
+  // ダミーシークレットキー
+  var APP_KEY = "base64:TdzYnO4ZikYzcEy74u6CkTYd5ItyYJZJ5ADshzY+dkw="
+  var DB_DATABASE = "xs695539_kiik"
+  var DB_USERNAME = "xs695539_kiik"
+  var DB_PASSWORD = "kiik1147"
+  var STRIPE_PUBLIC_KEY = "pk_test_51HFbZTKgBlpEUSwRRmiFkX73pYrAX2jv4xZ5szJe1XJGwR8TZ7IviwDntSeTdMetxJj7KX8L8iJWXdmtODdvWbNj00ZZ4iqzJh"
+  var STRIPE_SECRET_KEY = "sk_test_51HFbZTKgBlpEUSwRBlkbXZPCt2pfHRAs5DHZB5jbMmnnsVGD8hazbBAAVp8UeEqnC6wZZ9IY2rsXllwzxonWQKZL00nmvWRYUy"
 
   // 選択されている都市を取得
   var selected_city = $('select.weather option:selected').attr('value');
